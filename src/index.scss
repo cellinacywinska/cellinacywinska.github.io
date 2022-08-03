@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+  //background-color: #fcebea;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'basis-grotesque-regular-pro';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.intro{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+h1 {
+	color: mix(#fff, #e91e63, 85%);
+	font-size: 60px ;  
+	font-weight: 900;
+	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+    0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+}
+
+footer{
+  background-color:#fcebea;
+  text-align: center;
+  font-size: 14px ;  
+	font-weight: 15;
+  padding: 25px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+  color: mix(#fff, #e91e63, 85%);
+	font-size: 30px ;  
+	font-weight: 800;
+	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+    0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+}
+
+nav a:hover {
+  color:#CAEEFE;
+}
+
+nav a.active {
+  color:#E1FFD4;
+
+}
+
+.logoDiv{
+  position:fixed; 
+	top:0; 
+	left:0;
+}
+
+.App-logo {
+  width:50px;
+  height:50px; 
+}
+
+footer{
+  text-align: center;
+  font-size: large;
+  font-weight: 30px;
+  color: purple;
+}
+
+.about{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+h2 {
+  
+	font-size: 40px ;  
+	font-weight: 900;
+  color: mix(#fff, #e91e63, 85%);
+	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+    0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+}
+
+h3 {
+	font-size: 30px ;  
+	font-weight: 900;
+  color: mix(#fff, #e91e63, 85%);
+	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+    0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+}
+
+.mlh-logo {
+  height: 120px;
+  width:auto;
+  margin-top: 20px;
+  left: 50%;
+    transform: translate(-50%,0);
+    border:  #fcebea 3px solid;
+    border-radius: 30px;
+    position: relative;
+}
+
+.reach-out{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.contact-me{
+	font-size: 30px ;  
+	font-weight: 900;
+  color: mix(#fff, #e91e63, 85%);
+	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+    0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+}
+
+.linkedin{
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.github{
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+.social a:hover{
+    color:lightblue;
+}
+
+h4 {
+	font-size: 20px ;  
+	font-weight: 900;
+  color: mix(#fff, #e91e63, 85%);
+	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+    0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+
+
+
