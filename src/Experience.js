@@ -4,11 +4,10 @@ import './App.css';
 import image from './mlh-logo.png';
 
 
-
 export default () => {
     return (
-    <div className="experience" style={{width:"100%", height:"100%", marginTop: "10%",
-    position: "relative"}}>
+    <div style={{width:"100%", height:"100%", top:"35%", transform:"translate(0,-20%)",
+    position: "absolute"}}>
          <div style={{textAlign:"center"}}>
              <h3>
             Open Source track intern in the G-Research DevOps team.<br></br>

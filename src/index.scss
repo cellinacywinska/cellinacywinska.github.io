@@ -19,6 +19,7 @@ code {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
+  z-index: -10;
 }
 
 h1 {
@@ -33,6 +34,7 @@ h1 {
 		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
 		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
 		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+    z-index: -10;
 }
 
 footer{
@@ -52,9 +54,30 @@ nav ul {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  padding: 0;  
 }
+
+@media only screen and (min-width: 560px){
+  nav ul{box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);}
+}
+
+@media only screen and (max-width: 600px){
+  h1{font-size: 24px !important;}
+}
+
+@media only screen and (max-width: 600px){
+  h2{font-size: 28px !important;}
+}
+
+@media only screen and (max-width: 600px){
+  h3{font-size: 18px !important;}
+}
+
+@media only screen and (max-width: 600px){
+  h4{font-size: 12px !important;}
+}
+
+
 
 nav a {
   text-decoration: none;
@@ -62,7 +85,7 @@ nav a {
   padding: 1rem;
   text-align: center;
   color: mix(#fff, #e91e63, 85%);
-	font-size: 30px ;  
+	font-size: min(30px, calc((100vw)/36));  
 	font-weight: 800;
 	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
     0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
@@ -72,6 +95,8 @@ nav a {
 		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
 		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
 		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+  width: fit-content;
+
 }
 
 nav a:hover {
@@ -79,7 +104,8 @@ nav a:hover {
 }
 
 nav a.active {
-  color:#E1FFD4;
+  //color:#E1FFD4;
+  color: #fffbad;
 
 }
 
@@ -106,10 +132,10 @@ footer{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); 
+  z-index: -10;
 }
 
 h2 {
-  
 	font-size: 40px ;  
 	font-weight: 900;
   color: mix(#fff, #e91e63, 85%);
@@ -121,6 +147,7 @@ h2 {
 		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
 		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
 		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+    z-index: -10;
 }
 
 h3 {
@@ -135,6 +162,7 @@ h3 {
 		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
 		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
 		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+    z-index: -10;
 }
 
 .mlh-logo {
@@ -142,10 +170,11 @@ h3 {
   width:auto;
   margin-top: 20px;
   left: 50%;
-    transform: translate(-50%,0);
-    border:  #fcebea 3px solid;
-    border-radius: 30px;
-    position: relative;
+  transform: translate(-50%,0);
+  border:  #fcebea 3px solid;
+  border-radius: 30px;
+  position: relative;
+  z-index: -10;
 }
 
 .reach-out{
@@ -153,6 +182,7 @@ h3 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%); 
+    z-index: -10;
 }
 
 .contact-me{
@@ -167,22 +197,26 @@ h3 {
 		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
 		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
 		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+    z-index: -10;
 }
 
 .linkedin{
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
+  z-index: -10;
 }
 
 .github{
   margin: 0 1rem;
   transition: transform 250ms;
   display: inline-block;
+  z-index: -10;
 }
 
 .social a:hover{
     color:lightblue;
+    
 }
 
 h4 {
@@ -200,8 +234,54 @@ h4 {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%); 
+  z-index: -10;
 }
 
+.dropdown {
+  // z-index: 5;
+  display:block;
+  position: relative;
+  left: auto;
+  box-shadow: 0 10px 15px -3px rgba(46, 41, 51, 0.08),
+    0 4px 6px -2px rgba(71, 63, 79, 0.16);
+  font-size: 0.875rem;
+  z-index: 9999;
+  padding: 0.5rem 0;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  width: fit-content;
+  top: -17px;
+  
+ }
 
+ .menuButton:hover{
+  cursor: pointer;
+  background-color: #fffbad;
+ }
 
+.menuButton{
+  font-size: 20px ;  
+	font-weight: 900;
+  color: mix(#fff, #e91e63, 85%);
+	text-shadow:-0.0075em 0.0075em 0 mix(#fff, #e91e63, 94%),
+    0.005em 0.005em 0 mix(#fff, #e91e63, 60%),
+		0.01em 0.01em 0 mix(#fff, #e91e63, 62%), 
+		0.015em 0.015em mix(#fff, #e91e63, 64%), 
+		0.02em 0.02em 0 mix(#fff, #e91e63, 66%), 
+		0.025em 0.025em 0 mix(#fff, #e91e63, 68%),
+		0.03em 0.03em 0 mix(#fff, #e91e63, 70%),
+		0.035em 0.035em 0 mix(#fff, #e91e63, 72%);
+  background-color:#fcebea; 
+  border-radius: 30px;
+  border-color: mix(#fff, #e91e63, 85%);
+  border: 0;
+  margin: 0;
+  padding: 6px 10px 6px 10px;
+  position: absolute;
+  top: 24px;
+  left: 25px;
+  
+ 
+}
 

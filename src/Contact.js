@@ -4,8 +4,7 @@ import './App.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faLinkedinIn,
-    faGithub,
-    faEnvelope
+    faGithub
 } from "@fortawesome/free-brands-svg-icons";
 
 
