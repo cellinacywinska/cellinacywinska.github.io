@@ -16,7 +16,7 @@ export default () => {
          
             </h3>
          </div>
-         <a href="https://fellowship.mlh.io/" target="_blank">
+         <a href="https://fellowship.mlh.io/" target="blank">
          <img src={image} className="mlh-logo" alt="mlh" />
          </a>
          <h4>June - September 2022</h4>
