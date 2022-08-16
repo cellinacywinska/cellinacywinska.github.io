@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cellinacywinska.github.io/static/css/main.d10b2b71.css",
+    "main.js": "/cellinacywinska.github.io/static/js/main.fe16d5d7.js",
+    "static/media/smiley-flower.png": "/cellinacywinska.github.io/static/media/smiley-flower.48127e82893c4ae215d3.png",
+    "static/media/mlh-logo.png": "/cellinacywinska.github.io/static/media/mlh-logo.0e923e77989ecd444107.png",
+    "index.html": "/cellinacywinska.github.io/index.html",
+    "main.d10b2b71.css.map": "/cellinacywinska.github.io/static/css/main.d10b2b71.css.map",
+    "main.fe16d5d7.js.map": "/cellinacywinska.github.io/static/js/main.fe16d5d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d10b2b71.css",
+    "static/js/main.fe16d5d7.js"
+  ]
+}
