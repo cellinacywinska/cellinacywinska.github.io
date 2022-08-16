@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d10b2b71.css",
+    "main.js": "/static/js/main.da16e44f.js",
+    "static/media/smiley-flower.png": "/static/media/smiley-flower.48127e82893c4ae215d3.png",
+    "static/media/mlh-logo.png": "/static/media/mlh-logo.0e923e77989ecd444107.png",
+    "index.html": "/index.html",
+    "main.d10b2b71.css.map": "/static/css/main.d10b2b71.css.map",
+    "main.da16e44f.js.map": "/static/js/main.da16e44f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d10b2b71.css",
+    "static/js/main.da16e44f.js"
+  ]
+}
